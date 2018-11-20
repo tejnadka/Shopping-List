@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  isReceipeSelected: boolean = false;
+  isReceipeSelected: boolean = true;
   isShoppingListSelected: boolean = false;
 
   constructor() {

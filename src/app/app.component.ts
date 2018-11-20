@@ -6,5 +6,18 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  
+  isReceipeSelected: boolean = false;
+  isShoppingListSelected: boolean = false;
+
+  constructor() {
+
+  }
+
+  recipesSelected(selected: boolean) {
+    this.isReceipeSelected = selected;
+  }
+
+  shoppingListSelected(selected: boolean) {
+    this.isShoppingListSelected =selected;
+  }
 }
